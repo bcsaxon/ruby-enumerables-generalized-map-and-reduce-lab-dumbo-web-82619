@@ -1,5 +1,5 @@
 # Your Code Here
-def map(source_array) 
+def map(source_array)
   index = 0
   source_array.each do |number|
     source_array[index] = yield(number)
